@@ -4,7 +4,10 @@ var store = new Store();
 
 class Form extends Component {
   constructor(store){
+    super(store);
 
+    this.store = store;
+    this.didMount();
   }
 
   didMount() {
