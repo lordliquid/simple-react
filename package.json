@@ -1,0 +1,29 @@
+{
+  "name": "javascript-state",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "bin": {
+    "javascript-state": "app.bundle.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015-auto": "^1.1.0",
+    "babel-preset-latest": "^6.22.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1",
+    "webpack-livereload-plugin": "^0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
